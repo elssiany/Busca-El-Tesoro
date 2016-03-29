@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dialog_select_pregunta">
+
+    <TextView
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Respoda esta pregunta..."
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp" />
+
+    <TextView
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="¿como se llama el IDE para desarrollar
+        aplicaciones android?"
+        android:id="@+id/textVPregunta"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp" />
+
+
+    <RelativeLayout
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/textVPregunta"
+        android:layout_alignStart="@+id/textVPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayoutA">
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/image_color1"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="A)"
+            android:id="@+id/textView3"
+           />
+
+        <TextView
+
+            android:gravity="left"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Respuesta A"
+            android:id="@+id/textVRespuestaA"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/textView3" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayoutA"
+        android:layout_alignStart="@+id/relativeLayoutA"
+        android:id="@+id/relativeLayoutB">
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/image_color1"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="B)"
+            android:id="@+id/textView4"
+            />
+
+        <TextView
+            android:gravity="left"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Respuesta B"
+            android:id="@+id/textVRespuestaB"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/textView4" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayoutC"
+        android:layout_below="@+id/relativeLayoutB"
+        android:layout_alignStart="@+id/relativeLayoutB">
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/image_color1"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="C)"
+            android:id="@+id/textView6"
+            />
+
+        <TextView
+            android:gravity="left"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Respuesta C"
+            android:id="@+id/textVRespuestaC"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/textView6" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayoutC"
+        android:layout_alignStart="@+id/relativeLayoutC">
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/image_color1"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="D)"
+            android:id="@+id/textView9"
+            />
+
+        <TextView
+            android:gravity="left"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Respuesta D"
+            android:id="@+id/textVRespuestaD"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/textView9" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

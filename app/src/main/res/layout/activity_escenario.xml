@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/escenario1_1"
+    tools:context="com.example.user.buscaeltesoro.activities.EscenarioActivity">
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+        <!--fila 1-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla1"
+                android:layout_column="0" />
+
+            <Button
+                android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla2"
+                android:layout_column="2" />
+
+            <Button
+                android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:text="12"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla3"
+                android:layout_column="4" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla4"
+                android:layout_column="6" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla5"
+                android:layout_column="8" />
+        </TableRow>
+
+        <!--fila 2-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+
+                android:id="@+id/btonCasilla6"
+                android:layout_column="0" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla7"
+                android:layout_column="2" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla8"
+                android:layout_column="4" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla9"
+                android:layout_column="6" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla10"
+                android:layout_column="8"/>
+
+        </TableRow>
+
+        <!--fila 3-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+
+                android:id="@+id/btonCasilla11"
+                android:layout_column="0" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla12"
+                android:layout_column="2" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla13"
+                android:layout_column="4" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla14"
+                android:layout_column="6" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla15"
+                android:layout_column="8"/>
+
+        </TableRow>
+
+
+        <!--fila 4-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+
+                android:id="@+id/btonCasilla16"
+                android:layout_column="0" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla17"
+                android:layout_column="2" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla18"
+                android:layout_column="4" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla19"
+                android:layout_column="6" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla20"
+                android:layout_column="8"/>
+
+        </TableRow>
+
+
+        <!--fila 5-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+
+                android:id="@+id/btonCasilla21"
+                android:layout_column="0" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla22"
+                android:layout_column="2" />
+
+            <Button
+                android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla23"
+                android:layout_column="4" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla24"
+                android:layout_column="6" />
+
+            <Button
+                 android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
+                android:background="@drawable/money"
+                android:onClick="clickBtonCasillas"
+                android:text="100"
+                android:layout_width="34dp"
+                android:layout_height="64dp"
+                android:id="@+id/btonCasilla25"
+                android:layout_column="8"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <TextView
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:text="Jugador 1: 100 puntos   --    Jugador 2: 20 puntos"
+        android:id="@+id/textVPuntajes"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

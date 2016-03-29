@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dialog_select_pregunta">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Seleccione un \ncolor para el jugador 1"
+        android:id="@+id/textVTitleDialog"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp" />
+
+
+    <FrameLayout
+        android:layout_marginBottom="20dp"
+        android:id="@+id/tableColors"
+        android:layout_width="140dp"
+        android:layout_height="220dp"
+        android:layout_below="@+id/textVTitleDialog"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:onClick="onClickBtons"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@drawable/image_color1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btonColor1" />
+
+
+        <Button
+            android:onClick="onClickBtons"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@drawable/image_color3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btonColor3"
+            android:layout_gravity="left|center_vertical" />
+
+        <Button
+            android:onClick="onClickBtons"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@drawable/image_color5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btonColor5"
+            android:layout_gravity="left|bottom" />
+
+        <Button
+            android:onClick="onClickBtons"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@drawable/image_color2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btonColor2"
+            android:layout_gravity="right|top" />
+
+        <Button
+            android:onClick="onClickBtons"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@drawable/image_color4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btonColor4"
+            android:layout_gravity="right|center_vertical" />
+
+        <Button
+            android:onClick="onClickBtons"
+            style="?android:attr/buttonBarButtonStyle"
+            android:background="@drawable/image_color6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/btonColor6"
+            android:layout_gravity="right|bottom" />
+
+
+    </FrameLayout>
+
+    <Button
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="onClickBtons"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANCELAR"
+        android:id="@+id/btonCancelar"
+        android:layout_gravity="left|bottom"
+        android:layout_below="@+id/tableColors"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

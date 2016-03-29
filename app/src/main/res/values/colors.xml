@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A35433</color>
+    <color name="colorPrimaryDark">#A35433</color>
+    <color name="colorAccent">#69240A</color>
+    <color name="colorEscenario">#FF4081</color>
+    <color name="colorEscenarioGanador">#69240A</color>
+</resources>
